@@ -12,7 +12,7 @@
 
 Swiftで使えるフレームワークをGitHubで探しているときに、そのフレームワークの使い方を知る手段のひとつとして、テストコードを見てみる方法が有効です(ドキュメントがなくテストだけがある場合など)。
 
-XcodeにはXCTestというテスティングフレームワークがデフォルトで付属しているので、テストコードが存在している場合にはXCTestで書かれていることが多いですが、[Quick](https://github.com/Quick/Quick)というテスティングフレームワークでテストが書かれているものもちらほら存在することに気付きました。Quickは、Ruby用のBDDフレームワーク[RSpec](http://rspec.info)に影響を受けたSwift/Objecitve-C用BDDフレームワークです。
+XcodeにはXCTestというテスティングフレームワークがデフォルトで付属しているので、テストコードが存在している場合にはXCTestで書かれていることが多いですが、[Quick](https://github.com/Quick/Quick)というテスティングフレームワークでテストが書かれているものもちらほら存在することに気付きました。Quickは、Ruby用の[BDD](http://ja.wikipedia.org/wiki/ビヘイビア駆動開発)フレームワーク[RSpec](http://rspec.info)に影響を受けたSwift/Objecitve-C用BDDフレームワークです。
 
 RSpecやQuickについてはよく知らなかったので、入門も兼ねて、先月(2015年5月)ある勉強会で「[テスティングフレームワークに入門してみた - Swift編](http://www.slideshare.net/hisakunifujimoto/testing-framework-for-swift)」というタイトルで発表してきました。
 
@@ -46,7 +46,7 @@ end
 
 これもRubyプログラムの一種ではあるのですが、「Swiftとは、生物学の文脈では、つばめの一種である。ソフトウェア技術の文脈では、プログラミング言語のひとつである。」と読み下せるように意識して書いています。Swiftの仕様・振舞いを記述していると考えてもよいでしょう。
 
-このように、ある目的に特化したコードを書くための言語を[DSL](http://ja.wikipedia.org/wiki/ドメイン固有言語)(=Domain Specific Language)と呼びます。RSpecは、RubyをベースにしたDSLだということが言えます。
+このように、ある目的(RSpecの場合は[BDD](http://ja.wikipedia.org/wiki/ビヘイビア駆動開発))に特化したコードを書くための言語を[DSL](http://ja.wikipedia.org/wiki/ドメイン固有言語)(=Domain Specific Language)と呼びます。RSpecは、RubyをベースにしたDSLだということが言えます。
 
 では次に、同じものをQuickで書いてみましょう:
 
