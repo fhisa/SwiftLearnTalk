@@ -117,4 +117,4 @@ QuickはなんでRSpecのようになっていないのだろう、そういう�
 
 途中経過をはしょりますが、結論としては、その気になれば、Quickを改造してRSpec並のDSLを書けるようにすることは可能ではないかと思われます。
 
-詳しくは、Swiftで捨てDSLを構成してみた spec_modoki.swift と、その元になった spec_modiki.rb を見てください。
+詳しくは、Swiftで捨てDSLを構成してみた [spec_modoki.swift](https://github.com/hisa/SwiftLearnTalk/blob/master/20150606/spec_modoki.swift) と、その元になった [spec_modiki.rb](https://github.com/hisa/SwiftLearnTalk/blob/master/20150606/spec_modoki.rb) を見てください。
